@@ -39,6 +39,8 @@ dependencies {
     compile "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
     //glide
     compile 'jp.wasabeef:glide-transformations:2.0.1'
-    //
+    //兼容 kotlin 和 databinding
     kapt "com.android.databinding:compiler:$gradle_version"
+    // navigationView android material design
+    compile 'com.android.support:design:26.+'
 }

@@ -4,6 +4,7 @@ import android.databinding.DataBindingUtil
 import android.os.Bundle
 import android.os.Handler
 import android.support.v7.app.AppCompatActivity
+import android.view.View
 import com.bumptech.glide.Glide
 import com.java.easygo.R
 import com.java.easygo.comm.ImageurlUtil
@@ -23,12 +24,19 @@ class TransitionActivity : AppCompatActivity() {
         mbinding = DataBindingUtil.setContentView(this, R.layout.activity_transition)
 
         showDefaultPic()
-
         showNetPic()
+        goToMain()
+    }
+
+    private fun goToMain(){
+//        Handler().postDelayed()
     }
 
     private fun showNetPic(){
-        Handler().postDelayed()
+        Handler().postDelayed(Runnable { hideDefultPic() },1500)
+    }
+    private fun hideDefultPic(){
+        mbinding?.ivDefault?.visibility = View.GONE
     }
 
     private fun showDefaultPic() {
