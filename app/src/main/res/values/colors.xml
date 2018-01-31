@@ -3,6 +3,31 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
-
     <color name="colorTheme">#ffce3d3a</color>
+
+
+    <!--fragment-->
+        <!--tab标签栏文字的颜色-->
+        <color name="colorTabText">#585858</color>
+        <!--主页tab背景-->
+        <color name="colorTabBg">#ffffffff</color>
+        <color name="colorWhite">#ffffffff</color>
+        <!--item的5.0一下版本选择器颜色-->
+        <color name="itemLowBackground">#d9d9d9</color>
+        <color name="colorTabLine">#ffce3d3a</color>
+        <color name="colorTabTextCheck">#ffce3d3a</color>
+        <color name="colorTabTextNormal">#585858</color>
+        <!--水波纹或5.0以下选择器颜色-->
+        <color name="tabBackground">#777D7D7D</color>
+
+
+    <!--navigation view-->
+    <!--页面背景的颜色-->
+    <color name="colorPageBg">#f2f4f5</color>
+    <!--透明色-->
+    <color name="colorTransparent">#00000000</color>
+    <!--正文文字颜色-->
+    <color name="colorContent">#ff333333</color>
+    <!--侧边栏分割线-->
+    <color name="colorNavLine">#E0E0E0</color>
 </resources>
